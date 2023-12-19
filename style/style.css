@@ -2,6 +2,19 @@
   --bg-color: #F3F3F5;
   --wh-color: #FFFFFF; }
 
+#DISCLAIMER {
+  background-color: red;
+  font-family: 'Jost', sans-serif !important;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin: 0; }
+  #DISCLAIMER a {
+    color: var(--y-color); }
+    #DISCLAIMER a a:visited {
+      color: var(--y-color); }
+
 body {
   background-color: var(--bg-color);
   margin: 0 auto; }
